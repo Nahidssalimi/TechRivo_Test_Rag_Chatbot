@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+.vite/
+
+# Backend files (since frontend is at root, exclude backend)
+backend/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Environment
+.env
+
+# Testing
+coverage/
+
+# Misc
+.eslintcache
+
+# Python files (since frontend is at root)
+*.py
+__pycache__/
+venv/
